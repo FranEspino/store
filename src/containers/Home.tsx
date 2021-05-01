@@ -1,12 +1,9 @@
-import React, { useEffect, useState } from 'react'
-import '../styles/main.css'
-import Products from '../components/Products'
+import React, { useEffect, useState } from 'react';
+import '../styles/main.css';
+import Products from '../components/Products';
 
 const Home = () => {
-  
-    return (
-        <Products />
-    )
-}
+  return <Products />;
+};
 
-export default Home
+export default Home;
